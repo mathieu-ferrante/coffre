@@ -1,5 +1,7 @@
 # Coffre — gestionnaire de mots de passe personnel
 
+**App en ligne : <https://mathieu-ferrante.github.io/coffre/>**
+
 Une seule app pour **Mac, Windows et Android**, qui stocke tes mots de passe **chiffrés sur tes appareils**,
 en génère de très solides, et se **synchronise via Dropbox** sans que Dropbox puisse lire quoi que ce soit.
 
