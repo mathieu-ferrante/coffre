@@ -1,0 +1,23 @@
+{
+  "name": "coffre",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gestionnaire de mots de passe personnel, chiffré, compatible KeePass, synchronisé via Dropbox",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/build.mjs --serve",
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/*.test.ts",
+    "test:compat": "python3 tests/compat/check_pykeepass.py /tmp  # nécessite: pip install pykeepass",
+    "icons": "python3 scripts/make-icons.py"
+  },
+  "dependencies": {
+    "hash-wasm": "4.12.0",
+    "kdbxweb": "2.1.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "typescript": "5.9.3"
+  }
+}
